@@ -8,7 +8,7 @@ ActiveStorage-Storj-S3 is a ruby gem extension for [activestorage-storj](https:/
 * Add this line to your Rails application's Gemfile:
 
     ```ruby
-    gem 'activestorage-storj-s3', '~> 1.0', github: 's101d1/activestorage-storj-s3'
+    gem 'activestorage-storj-s3', '~> 1.0'
     ```
 
     And then execute:
@@ -22,6 +22,7 @@ ActiveStorage-Storj-S3 is a ruby gem extension for [activestorage-storj](https:/
     storj:
       service: storj_s3   # change from "storj" to "storj_s3"
       ...
+      # provide the Storj S3 gateway credentials
       s3_gateway:
         access_key_id: ""
         secret_access_key: ""

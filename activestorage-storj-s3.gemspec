@@ -5,8 +5,8 @@ require_relative 'lib/active_storage/storj/s3/version'
 Gem::Specification.new do |spec|
   spec.name        = 'activestorage-storj-s3'
   spec.version     = ActiveStorage::Storj::S3::VERSION
-  spec.authors     = ['s101d1']
-  spec.homepage    = 'https://github.com/s101d1/activestorage-storj-s3'
+  spec.authors     = ['Your Data']
+  spec.homepage    = 'https://github.com/Your-Data/activestorage-storj-s3'
   spec.summary     = 'activestorage-storj gem extension to provide Storj S3 gateway support'
   spec.description = 'Providing Storj S3 gateway support for activestorage-storj gem'
   spec.license     = 'MIT'
